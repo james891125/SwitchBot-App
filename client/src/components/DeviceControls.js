@@ -20,6 +20,45 @@ function commandsFor(deviceType = '') {
     return ON_OFF_COMMANDS;
 }
 
+// Friendly labels/units for Open API status fields (Plug Mini, Bot, meters...).
+// Unknown fields are still shown with their raw name.
+const STATUS_FIELDS = {
+    power: { label: 'Power' },
+    voltage: { label: 'Voltage', unit: 'V' },
+    weight: { label: 'Power draw', unit: 'W' },
+    electricCurrent: { label: 'Current', unit: 'A' },
+    electricityOfDay: { label: 'Used today', unit: 'min' },
+    battery: { label: 'Battery', unit: '%' },
+    temperature: { label: 'Temperature', unit: '°C' },
+    humidity: { label: 'Humidity', unit: '%' },
+    deviceMode: { label: 'Mode' },
+    onlineStatus: { label: 'Online' },
+    version: { label: 'Firmware' },
+};
+const HIDDEN_FIELDS = new Set(['deviceId', 'deviceType', 'hubDeviceId']);
+
+function StatusTable({ status }) {
+    const rows = Object.entries(status).filter(
+        ([key, value]) => !HIDDEN_FIELDS.has(key) && value !== null && typeof value !== 'object'
+    );
+    if (rows.length === 0) return null;
+    return (
+        <table className="text-gray-200 text-base">
+            <tbody>
+                {rows.map(([key, value]) => {
+                    const field = STATUS_FIELDS[key] || { label: key };
+                    return (
+                        <tr key={key}>
+                            <td className="pr-6 py-1 text-gray-400">{field.label}</td>
+                            <td className="py-1 font-semibold">{String(value)}{field.unit ? ` ${field.unit}` : ''}</td>
+                        </tr>
+                    );
+                })}
+            </tbody>
+        </table>
+    );
+}
+
 // Open API answers HTTP 200 with its own statusCode in the body: 100 means success.
 function describeResult(body) {
     if (!body) return 'No response from SwitchBot.';
@@ -68,9 +107,10 @@ export default function DeviceControls({ device }) {
         <div className="flex flex-col items-center gap-6">
             <h2 className="text-2xl font-semibold text-white">{device.device_name}</h2>
             <p className="text-gray-400 text-sm">{deviceType} · {deviceId}</p>
-            {status && status.power !== undefined && (
-                <p className="text-gray-200">Power: <span className="font-semibold">{status.power}</span></p>
-            )}
+            {status && <StatusTable status={status} />}
+            <button onClick={refreshStatus} className="text-sm text-gray-400 hover:text-white underline">
+                Refresh
+            </button>
             <div className="flex gap-6">
                 {commandsFor(deviceType).map(({ label, command }) => (
                     <button
