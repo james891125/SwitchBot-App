@@ -19,10 +19,10 @@ export default function MeterIcons({ deviceId }) {
 
     return (
         <div className="flex flex-row items-center gap-2">
-            <img src={`icons/sensor_type_temperature_default.png`} alt="icon" className="w-12 h-12 mb-2" />
-            <span className="text-2xl text-white">{temperature}°C</span>
-            <img src={`icons/sensor_type_humidity_default.png`} alt="icon" className="w-12 h-12 mb-2" />
-            <span className="text-2xl text-white">{humidity}%</span>
+            <img src={`icons/sensor_type_temperature_default.png`} alt="icon" className="w-7 h-7" />
+            <span className="text-lg text-white mr-2">{temperature}°C</span>
+            <img src={`icons/sensor_type_humidity_default.png`} alt="icon" className="w-7 h-7" />
+            <span className="text-lg text-white mr-2">{humidity}%</span>
         </div>
 
     );
