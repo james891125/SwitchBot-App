@@ -1,0 +1,590 @@
+{
+  "1": {
+    "file": "ir_shape_1.png",
+    "local": true
+  },
+  "10": {
+    "file": "ir_shape_10.png",
+    "local": true
+  },
+  "11": {
+    "file": "ir_shape_11.png",
+    "local": true
+  },
+  "12": {
+    "file": "ir_shape_12.png",
+    "local": true
+  },
+  "13": {
+    "file": "ir_shape_13.png",
+    "local": true
+  },
+  "14": {
+    "file": "ir_shape_14.png",
+    "local": true
+  },
+  "2": {
+    "file": "ir_shape_2.png",
+    "local": true
+  },
+  "3": {
+    "file": "ir_shape_3.png",
+    "local": true
+  },
+  "4": {
+    "file": "ir_shape_4.png",
+    "local": true
+  },
+  "5": {
+    "file": "ir_shape_5.png",
+    "local": true
+  },
+  "6": {
+    "file": "ir_shape_6.png",
+    "local": true
+  },
+  "7": {
+    "file": "ir_shape_7.png",
+    "local": true
+  },
+  "8": {
+    "file": "ir_shape_8.png",
+    "local": true
+  },
+  "9": {
+    "file": "ir_shape_9.png",
+    "local": true
+  },
+  "91AgWZ1n": {
+    "file": "sweeper_shape_91AgWZ1n.png",
+    "local": true
+  },
+  "AiHubThirdPartyCam": {
+    "file": "camera_shape_AiHubThirdPartyCam.png",
+    "local": false
+  },
+  "NL42": {
+    "file": "light_shape_NL42.png",
+    "local": false
+  },
+  "NL52": {
+    "file": "light_shape_NL52.png",
+    "local": false
+  },
+  "NL59": {
+    "file": "light_shape_NL59.png",
+    "local": false
+  },
+  "NL69": {
+    "file": "light_shape_NL69.png",
+    "local": false
+  },
+  "W1050000": {
+    "file": "camera_shape_W1050000.png",
+    "local": true
+  },
+  "W1050001": {
+    "file": "camera_shape_W1050001.png",
+    "local": true
+  },
+  "W1050002": {
+    "file": "camera_shape_W1050002.png",
+    "local": true
+  },
+  "W1070000": {
+    "file": "sensor_shape_W1070000.png",
+    "local": false
+  },
+  "W1071000": {
+    "file": "env_shape_W1071000.png",
+    "local": false
+  },
+  "W1079000": {
+    "file": "sensor_shape_W1079000.png",
+    "local": true
+  },
+  "W1079001": {
+    "file": "sensor_shape_W1079001.png",
+    "local": true
+  },
+  "W1083000": {
+    "file": "switch_shape_W1083000.png",
+    "local": true
+  },
+  "W1083001": {
+    "file": "switch_shape_W1083001.png",
+    "local": true
+  },
+  "W1083002": {
+    "file": "switch_shape_W1083002.png",
+    "local": true
+  },
+  "W1083003": {
+    "file": "switch_shape_W1083003.png",
+    "local": true
+  },
+  "W1091000": {
+    "file": "lock_shape_W1091000.png",
+    "local": true
+  },
+  "W1095000": {
+    "file": "hub_shape_W1095000.png",
+    "local": true
+  },
+  "W1096000": {
+    "file": "hub_shape_W1096000.png",
+    "local": true
+  },
+  "W1099000": {
+    "file": "camera_shape_W1099000.png",
+    "local": false
+  },
+  "W1099001": {
+    "file": "camera_shape_W1099001.png",
+    "local": false
+  },
+  "W1100000": {
+    "file": "curtain_shape_W1100000.png",
+    "local": false
+  },
+  "W1101000": {
+    "file": "sensor_shape_W1101000.png",
+    "local": true
+  },
+  "W1102000": {
+    "file": "light_shape_W1102000.png",
+    "local": true
+  },
+  "W1102001": {
+    "file": "light_shape_W1102001.png",
+    "local": true
+  },
+  "W1102002": {
+    "file": "light_shape_W1102002.png",
+    "local": true
+  },
+  "W1102003": {
+    "file": "light_shape_W1102003.png",
+    "local": true
+  },
+  "W1102004": {
+    "file": "light_shape_W1102004.png",
+    "local": true
+  },
+  "W1102005": {
+    "file": "light_shape_W1102005.png",
+    "local": true
+  },
+  "W1102006": {
+    "file": "light_shape_W1102006.png",
+    "local": false
+  },
+  "W1102007": {
+    "file": "light_shape_W1102007.png",
+    "local": false
+  },
+  "W1104000": {
+    "file": "switch_shape_W1104000.png",
+    "local": true
+  },
+  "W1106000": {
+    "file": "sweeper_shape_W1106000.png",
+    "local": true
+  },
+  "W1107000": {
+    "file": "sweeper_shape_W1107000.png",
+    "local": true
+  },
+  "W1110000": {
+    "file": "key_shape_W1110000.png",
+    "local": true
+  },
+  "W1111000": {
+    "file": "sensor_shape_W1111000.png",
+    "local": true
+  },
+  "W1113000": {
+    "file": "sweeper_shape_W1113000.png",
+    "local": true
+  },
+  "W1114000": {
+    "file": "lock_shape_WoLockPro.png",
+    "local": true
+  },
+  "W1115000": {
+    "file": "key_shape_W1115000.png",
+    "local": true
+  },
+  "W1116000": {
+    "file": "env_shape_W1116000.png",
+    "local": true
+  },
+  "W1121000": {
+    "file": "aiPet_shape_W1121000.png",
+    "local": true
+  },
+  "W1123000": {
+    "file": "light_shape_W1123000.png",
+    "local": true
+  },
+  "W1126000": {
+    "file": "sweeper_shape_W1126000.png",
+    "local": false
+  },
+  "W1128000": {
+    "file": "auto_shape_W1128000.png",
+    "local": true
+  },
+  "W1130000": {
+    "file": "env_shape_W1130000.png",
+    "local": false
+  },
+  "W1135000": {
+    "file": "key_shape_W1135000.png",
+    "local": false
+  },
+  "W1141000": {
+    "file": "lock_shape_W1141000.png",
+    "local": false
+  },
+  "W1141001": {
+    "file": "lock_shape_W1141001.png",
+    "local": false
+  },
+  "W1145000": {
+    "file": "aiPinNote_type_default.png",
+    "local": false
+  },
+  "W1149000": {
+    "file": "hub_shape_W1149000.png",
+    "local": false
+  },
+  "W1152000": {
+    "file": "sweeper_shape_W1152000.png",
+    "local": false
+  },
+  "W1155000": {
+    "file": "lock_shape_W1155000.png",
+    "local": false
+  },
+  "W1156000": {
+    "file": "camera_shape_W1156000.png",
+    "local": false
+  },
+  "W1158000": {
+    "file": "aiRobot_shape_W1158000.png",
+    "local": false
+  },
+  "W1160000": {
+    "file": "env_shape_WoFan2.png",
+    "local": true
+  },
+  "W1162000": {
+    "file": "light_shape_WoCeilingPro.png",
+    "local": true
+  },
+  "W1163000": {
+    "file": "light_shape_W1163000.png",
+    "local": false
+  },
+  "W1173000": {
+    "file": "aiPet_shape_W1173000.png",
+    "local": false
+  },
+  "W1176000": {
+    "file": "env_shape_W1176000.png",
+    "local": false
+  },
+  "W1184000": {
+    "file": "lock_shape_W1141000.png",
+    "local": false
+  },
+  "W1186000": {
+    "file": "switch_shape_W1186000.png",
+    "local": false
+  },
+  "W1189000": {
+    "file": "lock_shape_W1189000.png",
+    "local": false
+  },
+  "W1197000": {
+    "file": "switch_shape_W1197000.png",
+    "local": false
+  },
+  "W1201000": {
+    "file": "camera_shape_W1201000.png",
+    "local": false
+  },
+  "W1201001": {
+    "file": "camera_shape_W1201001.png",
+    "local": false
+  },
+  "W1209000": {
+    "file": "lock_shape_W1155000.png",
+    "local": false
+  },
+  "W1213000": {
+    "file": "hub_shape_W1213000.png",
+    "local": false
+  },
+  "W1215000": {
+    "file": "key_shape_W1215000.png",
+    "local": false
+  },
+  "W1218000": {
+    "file": "env_shape_W1218000.png",
+    "local": false
+  },
+  "W1231000": {
+    "file": "key_shape_W1231000.png",
+    "local": false
+  },
+  "WoAirPurifier": {
+    "file": "env_shape_WoAirPurifier.png",
+    "local": true
+  },
+  "WoAirPurifierJP": {
+    "file": "env_shape_WoAirPurifierJP.png",
+    "local": true
+  },
+  "WoAirPurifierJPPro": {
+    "file": "env_shape_WoAirPurifierJPPro.png",
+    "local": true
+  },
+  "WoAirPurifierPro": {
+    "file": "env_shape_WoAirPurifierPro.png",
+    "local": true
+  },
+  "WoAirPurifierUS": {
+    "file": "env_shape_WoAirPurifierUS.png",
+    "local": true
+  },
+  "WoAirPurifierUSPro": {
+    "file": "env_shape_WoAirPurifierUSPro.png",
+    "local": true
+  },
+  "WoBatteryCam": {
+    "file": "camera_shape_WoBatteryCam.png",
+    "local": true
+  },
+  "WoBlindTilt": {
+    "file": "curtain_shape_WoBlindTilt.png",
+    "local": true
+  },
+  "WoBulb": {
+    "file": "light_shape_WoBulb.png",
+    "local": true
+  },
+  "WoButton": {
+    "file": "remote_shape_WoButton.png",
+    "local": false
+  },
+  "WoCamKvs": {
+    "file": "camera_shape_WoCamKvs.png",
+    "local": true
+  },
+  "WoCamKvs5mp": {
+    "file": "camera_shape_WoCamKvs5mp.png",
+    "local": true
+  },
+  "WoCamera": {
+    "file": "camera_shape_WoCamera.png",
+    "local": true
+  },
+  "WoCeiling": {
+    "file": "light_shape_WoCeiling.png",
+    "local": true
+  },
+  "WoCeilingPro": {
+    "file": "light_shape_WoCeilingPro.png",
+    "local": true
+  },
+  "WoContact": {
+    "file": "sensor_shape_WoContact.png",
+    "local": true
+  },
+  "WoCurtain": {
+    "file": "curtain_shape_WoCurtain.png",
+    "local": true
+  },
+  "WoCurtain3": {
+    "file": "curtain_shape_WoCurtain3.png",
+    "local": true
+  },
+  "WoFan": {
+    "file": "env_shape_WoFan.png",
+    "local": true
+  },
+  "WoFan2": {
+    "file": "env_shape_WoFan2.png",
+    "local": true
+  },
+  "WoFinderCard": {
+    "file": "key_shape_WoFinderCard.png",
+    "local": true
+  },
+  "WoHand": {
+    "file": "switch_shape_WoHand.png",
+    "local": true
+  },
+  "WoHmAP": {
+    "file": "homeRun_shape_WoHmAP_ws1428.png",
+    "local": false
+  },
+  "WoHmCT": {
+    "file": "homeRun_shape_WoHmCT_ws1428.png",
+    "local": false
+  },
+  "WoHmFT": {
+    "file": "homeRun_shape_WoHmFT_ws1428.png",
+    "local": false
+  },
+  "WoHmPD50": {
+    "file": "homeRun_shape_WoHmPD50_ws1428.png",
+    "local": false
+  },
+  "WoHmPD60Pro": {
+    "file": "homeRun_shape_WoHmPD60Pro_ws1428.png",
+    "local": false
+  },
+  "WoHub2": {
+    "file": "hub_shape_WoHub2.png",
+    "local": true
+  },
+  "WoHumi": {
+    "file": "env_shape_WoHumi.png",
+    "local": true
+  },
+  "WoHumi2": {
+    "file": "env_shape_WoHumi2.png",
+    "local": true
+  },
+  "WoHumi2Plus": {
+    "file": "env_shape_WoHumi2Plus.png",
+    "local": true
+  },
+  "WoIOSensor": {
+    "file": "sensor_shape_WoIOSensor.png",
+    "local": true
+  },
+  "WoKeypad": {
+    "file": "key_shape_WoKeypad.png",
+    "local": true
+  },
+  "WoKeypadTouch": {
+    "file": "key_shape_WoKeypadTouch.png",
+    "local": true
+  },
+  "WoLinkMatter": {
+    "file": "hub_shape_WoLinkMatter.png",
+    "local": true
+  },
+  "WoLinkMini": {
+    "file": "hub_shape_WoLinkMini.png",
+    "local": true
+  },
+  "WoLinkPlus": {
+    "file": "hub_shape_WoLinkPlus.png",
+    "local": true
+  },
+  "WoLock": {
+    "file": "lock_shape_WoLock.png",
+    "local": true
+  },
+  "WoLockLite": {
+    "file": "lock_shape_WoLockLite.png",
+    "local": true
+  },
+  "WoLockPro": {
+    "file": "lock_shape_WoLockPro.png",
+    "local": true
+  },
+  "WoMeter": {
+    "file": "sensor_shape_WoMeter.png",
+    "local": true
+  },
+  "WoMeterPlus": {
+    "file": "sensor_shape_WoMeterPlus.png",
+    "local": true
+  },
+  "WoNanoleaf": {
+    "file": "light_shape_WoNanoleaf.png",
+    "local": false
+  },
+  "WoOSC2": {
+    "file": "camera_shape_WoOSC2.png",
+    "local": true
+  },
+  "WoPanTiltCam": {
+    "file": "camera_shape_WoPanTiltCam.png",
+    "local": true
+  },
+  "WoPanTiltCam3MP": {
+    "file": "camera_shape_WoPanTiltCam3MP.png",
+    "local": true
+  },
+  "WoPlug": {
+    "file": "switch_shape_WoPlug.png",
+    "local": true
+  },
+  "WoPlugJP": {
+    "file": "switch_shape_WoPlugJP.png",
+    "local": true
+  },
+  "WoPlugUS": {
+    "file": "switch_shape_WoPlugUS.png",
+    "local": true
+  },
+  "WoPresence": {
+    "file": "sensor_shape_WoPresence.png",
+    "local": true
+  },
+  "WoRWS": {
+    "file": "remote_shape_WoRWS.png",
+    "local": true
+  },
+  "WoRollerShade": {
+    "file": "curtain_shape_WoRollerShade.png",
+    "local": true
+  },
+  "WoStrip": {
+    "file": "light_shape_WoStrip.png",
+    "local": true
+  },
+  "WoSweeper": {
+    "file": "sweeper_shape_WoSweeper.png",
+    "local": true
+  },
+  "WoSweeperMini": {
+    "file": "sweeper_shape_WoSweeperMini.png",
+    "local": true
+  },
+  "WoSweeperMiniPro": {
+    "file": "sweeper_shape_WoSweeperMiniPro.png",
+    "local": true
+  },
+  "WoSweeperOrigin": {
+    "file": "sweeper_shape_WoSweeperOrigin.png",
+    "local": true
+  },
+  "WoSweeperPlus": {
+    "file": "sweeper_shape_WoSweeperPlus.png",
+    "local": true
+  },
+  "WoWaterDetector": {
+    "file": "sensor_shape_WoWaterDetector.png",
+    "local": true
+  },
+  "default": {
+    "file": "tag_shape_default.png",
+    "local": true
+  },
+  "sH5cQeLF": {
+    "file": "sweeper_shape_WoSweeperMini.png",
+    "local": true
+  },
+  "tpqXG5pD": {
+    "file": "sweeper_shape_tpqXG5pD.png",
+    "local": true
+  }
+}
