@@ -1,7 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const expressApp = require('./server/app');
-const { autoUpdater } = require('electron-updater');
 
 let mainWindow;
 
@@ -29,28 +28,11 @@ function createWindow() {
 }
 
 
-autoUpdater.autoDownload = false;
-
-autoUpdater.on('update-available', (info) => {
-  mainWindow.webContents.send('update-message', 'Update available. Downloading...');
-  autoUpdater.downloadUpdate();
-});
-
-autoUpdater.on('update-downloaded', (info) => {
-  mainWindow.webContents.send('update-message', 'Update downloaded. It will be installed on restart.');
-});
-
-autoUpdater.on('error', (err) => {
-  mainWindow.webContents.send('update-message', `Update error: ${err == null ? "unknown" : err.message}`);
-});
-
+// Auto-update is intentionally disabled: it pointed at the original author's
+// GitHub releases and would replace this customized build with the upstream one.
 
 app.whenReady().then(() => {
   createWindow();
-  mainWindow.webContents.once('did-finish-load', () => {
-    mainWindow.webContents.send('update-message', 'Checking for updates...');
-    autoUpdater.checkForUpdates();
-  });
 });
 
 expressApp.listen(8089, () => {

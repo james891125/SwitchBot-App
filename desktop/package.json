@@ -7,9 +7,10 @@
     "start": "npx electronmon .",
     "rebuild": "electron-rebuild -f -w better-sqlite3",
     "postinstall": "electron-builder install-app-deps",
-    "build": "electron-builder"
+    "build": "electron-builder",
+    "package": "cd client && npm run build && cd .. && electron-builder"
   },
-  "author": "github.com/dbghelp",
+  "author": "james891125 (based on github.com/dbghelp/SwitchBot-App)",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -35,7 +36,7 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-    "appId": "com.github.dbghelp.switchbot",
+    "appId": "com.github.james891125.switchbot",
     "icon": "client/build/switchbot.ico",
     "files": [
       "client/build/**/*",
@@ -48,12 +49,16 @@
     "directories": {
       "buildResources": "assets"
     },
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "dbghelp",
-        "repo": "SwitchBot-App"
-      }
-    ]
+    "electronDist": "node_modules/electron/dist",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "SwitchBot App"
+    }
   }
 }
