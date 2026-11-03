@@ -10,6 +10,15 @@ const crypto = require('crypto');
 
 var switchBotAPI;
 
+// The Open API client is created at login, but after an app restart the saved
+// session is reused without logging in again, so create it on demand.
+function getSwitchBotAPI() {
+    if (!switchBotAPI) {
+        switchBotAPI = init();
+    }
+    return switchBotAPI;
+}
+
 router.get('/geticons', async function (req, res) {
     try {
         let url = "https://prod-switchbot-icons.s3.amazonaws.com/wo_device_icon.json";
@@ -345,9 +354,10 @@ router.post('/token', async function (req, res) {
 
 router.post('/controlDevice', async function (req, res) {
     try {
-        const { deviceId, command, parameter } = req.body;
+        const { deviceId, command, parameter, commandType } = req.body;
 
-        const response = await switchBotAPI.controlDevice(deviceId, command, parameter, 'customize');
+        // IR remote buttons use 'customize'; physical devices (Bot, Plug, ...) use 'command'.
+        const response = await getSwitchBotAPI().controlDevice(deviceId, command, parameter, commandType || 'customize');
 
         //console.log(response);
 
@@ -362,7 +372,7 @@ router.post('/getDeviceStatus', async function (req, res) {
     try {
         const { deviceId } = req.body;
 
-        const status = await switchBotAPI.getDeviceStatus(deviceId)
+        const status = await getSwitchBotAPI().getDeviceStatus(deviceId)
 
         //console.log(status);
 

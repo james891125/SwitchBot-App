@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import useAxios from '../hooks/useAxios';
+import DeviceControls from './DeviceControls';
 
 export default function Overlay({ onBack, item, type }) {
     const [remoteinfo, setRemoteinfo] = useState([]);
@@ -97,9 +98,7 @@ export default function Overlay({ onBack, item, type }) {
                     {type === 'scene' && (
                         <div className="text-center py-8 text-lg text-gray-300">To be updated...</div>
                     )}
-                    {type === 'device' && (
-                        <div className="text-center py-8 text-lg text-gray-300">To be updated...</div>
-                    )}
+                    {type === 'device' && <DeviceControls device={item} />}
 
                 </div>
             </div>
